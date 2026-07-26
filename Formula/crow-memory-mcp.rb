@@ -1,26 +1,26 @@
 class CrowMemoryMcp < Formula
   desc "Persistent memory MCP server for AI agents (Free edition)"
   homepage "https://crowmemory.ai"
-  version "0.2.2"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tchebit/crowmemory-releases/releases/download/v0.2.2/crow-memory-mcp-free-darwin-aarch64"
-      sha256 "c478f6ed79e69575ac373c511f22712a75de402b0f5bb422a7565570cfb034cc"
+      url "https://github.com/tchebit/crowmemory-releases/releases/download/v0.3.0/crow-memory-mcp-free-darwin-aarch64"
+      sha256 "662de42064243d8ee93f0be9a75329b557db9a9ebc66253133a68af35d3bc133"
     else
-      url "https://github.com/tchebit/crowmemory-releases/releases/download/v0.2.2/crow-memory-mcp-free-darwin-x86_64"
-      sha256 "556fda38ff1546a78e0c99f4271a38a85a4f4a956204e109dab88088a460bda2"
+      url "https://github.com/tchebit/crowmemory-releases/releases/download/v0.3.0/crow-memory-mcp-free-darwin-x86_64"
+      sha256 "688a411649e160a5e91a73efaf9dad9bc2bb8c94c0a76b3d1ad1d91ef8686204"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/tchebit/crowmemory-releases/releases/download/v0.2.2/crow-memory-mcp-free-linux-aarch64"
-      sha256 "ca059689ec1862f600744b65b701d94cfa0e521c61b6bf59aadae0c193ca4ce4"
+      url "https://github.com/tchebit/crowmemory-releases/releases/download/v0.3.0/crow-memory-mcp-free-linux-aarch64"
+      sha256 "f5048c91de2433f907d88c37dd7df801be4e87f90184d7107ba97191dc13924d"
     else
-      url "https://github.com/tchebit/crowmemory-releases/releases/download/v0.2.2/crow-memory-mcp-free-linux-x86_64"
-      sha256 "9ce27e3596082d96353c57b572612c1fa0df875e17b0fabd5031a7dd948130ed"
+      url "https://github.com/tchebit/crowmemory-releases/releases/download/v0.3.0/crow-memory-mcp-free-linux-x86_64"
+      sha256 "863925ee1993e6bd7fdf8d95f663cec5850ceee9bc43374530f8557bbd0c5632"
     end
   end
 
